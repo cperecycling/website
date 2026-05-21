@@ -99,7 +99,16 @@ a {
 }
 
 .brand-text {
-  font-size: 1.08rem;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  max-width: 11.5rem;
+}
+
+@media (min-width: 900px) {
+  .brand-text {
+    font-size: 1.08rem;
+    max-width: none;
+  }
 }
 
 .site-nav {
