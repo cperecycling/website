@@ -1,0 +1,37 @@
+CPER - GITHUB PAGES DEPLOYMENT
+
+IMPORTANT:
+Upload the CONTENTS of this folder to the ROOT of the GitHub repository.
+
+The repository root must contain:
+
+index.html
+index-fr.html
+assets/
+locations/
+services.html
+service-locations.html
+...and the other HTML files
+
+DO NOT upload only the .html files.
+DO NOT put everything inside another folder such as:
+CPER-GitHub-Pages-Ready/
+
+The assets folder is required because it contains:
+assets/css/style.css
+assets/js/site.js
+assets/img/...
+
+If assets/ is missing from the repository root, the website will appear as plain text and the photos will not load.
+
+Recommended GitHub web upload:
+1. Open the repository.
+2. Delete or replace the old website files as appropriate.
+3. Choose Add file > Upload files.
+4. Open CPER-GitHub-Pages-Ready on your computer.
+5. Select EVERYTHING INSIDE the folder, including the assets and locations folders.
+6. Drag all selected items into GitHub.
+7. Commit the changes.
+8. In Settings > Pages, confirm the site is publishing from the branch/root used by the repository.
+
+For a custom domain such as cperecycling.ca, keep your existing GitHub Pages custom-domain configuration.
