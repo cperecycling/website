@@ -1,0 +1,12 @@
+CPER CONTACT FORM - ONE-TIME ACTIVATION
+
+The site forms submit directly to info@cperecycling.ca through FormSubmit.
+
+After uploading the website:
+1. Visit https://cperecycling.ca/contact.html
+2. Submit a test form.
+3. Open the activation email sent by FormSubmit to info@cperecycling.ca.
+4. Click the activation link.
+5. Submit another test form and verify that it arrives.
+
+All site forms require name, email, phone number, pickup/equipment address, city and equipment details.

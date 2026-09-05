@@ -22,7 +22,7 @@ This is a complete static replacement site for cperecycling.ca.
 Upload the contents of this folder to the web root for cperecycling.ca. `index.html` should be at the site root.
 
 ## Important before going live
-1. The forms are intentionally static and open the visitor's email client addressed to info@cperecycling.ca. If your existing site uses a form endpoint, replace the `.mailto-form` behavior in `assets/js/site.js`.
+1. Website forms now submit directly over HTTPS through FormSubmit to info@cperecycling.ca. After the first live test submission, open the FormSubmit activation email sent to info@cperecycling.ca and confirm it. Then send a second test submission to verify delivery.
 2. Review service-area claims and location availability before publishing. Dallas–Fort Worth is explicitly shown as partner-served.
 3. CPER is described as a registered non-profit, not a registered charity; no charitable tax-receipt claim is made.
 4. The package uses NIST SP 800-88 Rev. 2 aligned wording for data sanitization. Confirm your operational process remains aligned before publishing.
@@ -115,3 +115,11 @@ The site uses a warmer, community-first layout inspired by the clarity and appro
 - Enlarged the pallet-of-laptops photo so it fills the visual area in that section.
 - Replaced visible "Secure data handling" wording with "Free, secure data destruction & sanitization" on English pages.
 - Added a natural Quebec French equivalent where applicable.
+
+
+## September 5, 2026 form and copy update
+- Replaced mailto-based forms with direct HTTPS POST submission through FormSubmit.
+- Added required phone number and pickup/equipment address fields to every English and French website form.
+- Added a branded thank-you page after successful submission.
+- Changed ‘20+ Years of Industry Experience’ to ‘20+ Years in Recycling Industry’.
+- Swapped the two requested homepage headlines.
